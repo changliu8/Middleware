@@ -10,7 +10,7 @@ Completion| :heavy_check_mark: |  :heavy_check_mark:|  :heavy_check_mark:
 
 Functionality | AddRecipies | BrowseRecipies 
 :------------ | :------------- | :-------------
-Completion| :heavy_check_mark:| :cross_mark:
+Completion| :heavy_check_mark:| :x:
 
 | Commands |
 | ---------------------|
