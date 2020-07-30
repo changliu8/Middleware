@@ -1,0 +1,39 @@
+<html>
+	<head><title>Create a Recipe</title></head>
+	
+	<body>
+		<script src="/js/addrecipe.js"></script>
+		
+		<button type="button" onclick="genRandom()">Generate Random Recipe Data</button>
+		<button type="button" onclick="submit()">Save Recipe</button>
+		<br><br>
+		
+		Recipe Name: <input type="textbox" id="recipename" size="50"><br>
+		
+		Prep Time: <input type="textbox" id="preptime" size="50"><br>
+		
+		Cook Time: <input type="textbox" id="cooktime" size="50"><br>
+		
+		Description: <textarea rows="5" cols="50" id="description"></textarea><br><br>
+		
+		Add ingredients:<br>
+		Unit: <select id="unit">
+		<option value="Tsp">Teaspoon</option>
+		<option value="Tbsp">Tbsp</option>
+		<option value="Cup">Cup</option>
+		<option value="Liter">Liter</option>
+		<option value="Gram">Gram</option>
+		</select><br>
+		
+		Amount: <input type="textbox" id="amount"><br>
+		
+		Ingredient: <input type="textbox" id="ingredient"><br>
+		
+		<button type="button" id="add" onclick="addIngredient()">Add Ingredient</button>
+		<br><br>
+		<div id="ingredients">
+		
+		</div><br>
+		<button type="button" id="submit" onclick="submit()">Save Recipe</button>
+	</body>
+</html>
