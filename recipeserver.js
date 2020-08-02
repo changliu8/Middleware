@@ -1,7 +1,14 @@
 
 //Database to store all recipe data
 //This will give you 3 recipes to start with
-let count = 0
+const pug = require('pug');
+const Rectypes = pug.compileFile('views/pages/types.pug')
+const Rectype = pug.compileFile('views/pages/type.pug')
+function send404(response){
+	response.statusCode = 404;
+	response.write("Unknown resource.");
+	response.end();
+}
 
 const { v4: uuidv4 } = require('uuid');
 
@@ -78,7 +85,41 @@ function parseBody(req, res, next){
 			//When we are finished, call the next middleware
 			next();
 		})
-	}else{
+	}
+	else if(req.method === "GET"){
+		if(req.url==="/recipes"){
+			let content = Rectypes({database});
+			res.statusCode = 200;
+			res.end(content);
+			return;
+		}
+		else if(req.url.startsWith("/recipes/:")){
+			let pid = req.url.slice(10);
+			found = (pid in database)
+			var tmp = database[pid];
+			try{
+				if(found){
+					console.log("Found: " + pid);
+					let content = Rectype({recipe: tmp});
+					res.statusCode = 200;
+					res.end(content);
+					return;
+				}else{
+					send404(res);
+					return;
+				}
+			}catch(err){
+				console.log(err);
+				console.log("Exception casting pid");
+				send404(res);
+				return;
+			}
+
+
+		}
+	}
+
+	else{
 		//If not a POST, then go to next middleware
 		next();
 	}
