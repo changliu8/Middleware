@@ -8,9 +8,9 @@ NEW | Bodyparser | express.json| uuid_package
 :------------ | :-------------| :-------------| :-------------
 Completion| :heavy_check_mark: |  :heavy_check_mark:|  :heavy_check_mark:
 
-Functionality | AddRecipies | BrowseRecipies 
-:------------ | :------------- | :-------------
-Completion| :heavy_check_mark:| :x:
+Functionality | AddRecipies | BrowseRecipies | SaveLocally
+:------------ | :------------- | :-------------| :-------------
+Completion| :heavy_check_mark:|  :heavy_check_mark:| :x:
 
 | Commands |
 | ---------------------|
