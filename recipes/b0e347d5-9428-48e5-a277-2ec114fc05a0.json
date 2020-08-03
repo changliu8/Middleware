@@ -1,0 +1,17 @@
+{
+	"b0e347d5-9428-48e5-a277-2ec114fc05a0":{
+		"ingredients":
+		[
+			{"name":"Crab","unit":"Tsp","amount":3},
+			{"name":"Peas","unit":"Cup","amount":12},
+			{"name":"Basil","unit":"Tbsp","amount":10},
+			{"name":"Cumin","unit":"Liter","amount":3},
+			{"name":"Salt","unit":"Tbsp","amount":1}
+		],
+		"name":"Boiled Crab with Peas",
+		"preptime":"13",
+		"cooktime":"78",
+		"description":"A boring recipe using Crab and Peas",
+		"id":"b0e347d5-9428-48e5-a277-2ec114fc05a0"
+		}
+}

@@ -1,0 +1,18 @@
+{
+	"04dcde4f-b1de-4f2b-b169-969594c82278":{
+		"ingredients":
+		[
+			{"name":"Peanuts","unit":"Liter","amount":10},
+			{"name":"Artichoke","unit":"Tsp","amount":3},
+			{"name":"Basil","unit":"Cup","amount":11},
+			{"name":"Sage","unit":"Grams","amount":13},
+			{"name":"Pepper","unit":"Cup","amount":1}
+		],
+		
+		"name":"Boiled Peanuts with Artichoke",
+		"preptime":"73",
+		"cooktime":"74",
+		"description":"A exciting recipe using Peanuts and Artichoke",
+		"id":"04dcde4f-b1de-4f2b-b169-969594c82278"
+	}
+}

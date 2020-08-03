@@ -1,0 +1,19 @@
+{
+	"b45bb7f9-51bc-47de-a4c3-fa564a241c27":{
+		"ingredients":
+		[
+			{"name":"Lobster","unit":"Tsp","amount":14},
+			{"name":"Brussel Sprouts","unit":"Liter","amount":14},
+			{"name":"Sage","unit":"Tbsp","amount":3},
+			{"name":"Thyme","unit":"Tbsp","amount":12},
+			{"name":"Pepper","unit":"Tsp","amount":10},
+			{"name":"Cumin","unit":"Tbsp","amount":11}
+		],
+			
+		"name":"Spicy Lobster with Brussel Sprouts",
+		"preptime":"86",
+		"cooktime":"19",
+		"description":"A tasty recipe using Lobster and Brussel Sprouts",
+		"id":"b45bb7f9-51bc-47de-a4c3-fa564a241c27"
+	}
+}
