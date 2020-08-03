@@ -4,7 +4,9 @@
 
 Basic Introduction:
 ```
-  It is a recipe sharing website, it allows people to add recipe and sharing them, It used to be online but whenever I turn off the server, the data will gone, so I moved it locally. It allows user brose & add recipies!!!
+  It is a recipe sharing website, it allows people to add recipe and sharing them.
+  It used to be online but whenever I turn off the server, the data will gone, so I moved it locally. 
+  It allows user brose & add recipies!!!
 ```
 
 NEW | Bodyparser | express.json| uuid_package
